@@ -1,0 +1,91 @@
+18-Aug-2021 20:46:33.512 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.70
+18-Aug-2021 20:46:33.534 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 9 2021 16:17:14 UTC
+18-Aug-2021 20:46:33.535 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.70.0
+18-Aug-2021 20:46:33.535 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Aug-2021 20:46:33.535 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-25-generic
+18-Aug-2021 20:46:33.535 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Aug-2021 20:46:33.535 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/jdk1.8.0_111/jre
+18-Aug-2021 20:46:33.536 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+18-Aug-2021 20:46:33.536 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Aug-2021 20:46:33.536 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+18-Aug-2021 20:46:33.536 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+18-Aug-2021 20:46:33.537 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/logging.properties
+18-Aug-2021 20:46:33.537 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Aug-2021 20:46:33.537 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|rafael-Aspire-E5-571
+18-Aug-2021 20:46:33.537 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Aug-2021 20:46:33.538 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Aug-2021 20:46:33.538 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Aug-2021 20:46:33.538 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Aug-2021 20:46:33.538 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+18-Aug-2021 20:46:33.538 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+18-Aug-2021 20:46:33.539 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/temp
+18-Aug-2021 20:46:33.539 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/local/jdk1.8.0_111/jre/lib/amd64:/usr/local/jdk1.8.0_111/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+18-Aug-2021 20:46:34.014 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Aug-2021 20:46:34.138 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Aug-2021 20:46:34.171 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1994 ms
+18-Aug-2021 20:46:34.352 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Aug-2021 20:46:34.353 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.70]
+18-Aug-2021 20:46:34.429 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/host-manager]
+18-Aug-2021 20:46:35.353 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/host-manager] has finished in [923] ms
+18-Aug-2021 20:46:35.354 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/manager]
+18-Aug-2021 20:46:35.452 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/manager] has finished in [97] ms
+18-Aug-2021 20:46:35.452 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/ROOT]
+18-Aug-2021 20:46:35.510 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/ROOT] has finished in [57] ms
+18-Aug-2021 20:46:35.510 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/examples]
+18-Aug-2021 20:46:36.201 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/examples] has finished in [690] ms
+18-Aug-2021 20:46:36.201 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/docs]
+18-Aug-2021 20:46:36.270 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/docs] has finished in [69] ms
+18-Aug-2021 20:46:36.293 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Aug-2021 20:46:36.388 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 2215 ms
+18-Aug-2021 20:47:03.280 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Aug-2021 20:47:03.281 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Aug-2021 20:47:03.288 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Aug-2021 20:47:03.400 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Aug-2021 20:47:03.409 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Aug-2021 20:47:35.920 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.70
+18-Aug-2021 20:47:35.923 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 9 2021 16:17:14 UTC
+18-Aug-2021 20:47:35.923 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.70.0
+18-Aug-2021 20:47:35.923 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Aug-2021 20:47:35.923 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-25-generic
+18-Aug-2021 20:47:35.924 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Aug-2021 20:47:35.924 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/jdk1.8.0_111/jre
+18-Aug-2021 20:47:35.924 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+18-Aug-2021 20:47:35.924 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Aug-2021 20:47:35.924 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+18-Aug-2021 20:47:35.925 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+18-Aug-2021 20:47:35.925 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/logging.properties
+18-Aug-2021 20:47:35.926 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Aug-2021 20:47:35.926 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|rafael-Aspire-E5-571
+18-Aug-2021 20:47:35.926 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Aug-2021 20:47:35.926 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Aug-2021 20:47:35.926 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Aug-2021 20:47:35.927 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Aug-2021 20:47:35.927 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+18-Aug-2021 20:47:35.927 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+18-Aug-2021 20:47:35.927 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/temp
+18-Aug-2021 20:47:35.928 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/local/jdk1.8.0_111/jre/lib/amd64:/usr/local/jdk1.8.0_111/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+18-Aug-2021 20:47:36.294 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Aug-2021 20:47:36.323 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Aug-2021 20:47:36.352 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1371 ms
+18-Aug-2021 20:47:36.424 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Aug-2021 20:47:36.425 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.70]
+18-Aug-2021 20:47:36.447 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/host-manager]
+18-Aug-2021 20:47:36.996 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/host-manager] has finished in [547] ms
+18-Aug-2021 20:47:36.996 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/manager]
+18-Aug-2021 20:47:37.056 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/manager] has finished in [60] ms
+18-Aug-2021 20:47:37.057 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/ROOT]
+18-Aug-2021 20:47:37.097 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/ROOT] has finished in [40] ms
+18-Aug-2021 20:47:37.098 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/examples]
+18-Aug-2021 20:47:37.548 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/examples] has finished in [449] ms
+18-Aug-2021 20:47:37.548 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/docs]
+18-Aug-2021 20:47:37.575 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/docs] has finished in [27] ms
+18-Aug-2021 20:47:37.582 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Aug-2021 20:47:37.609 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 1256 ms
+18-Aug-2021 20:47:38.456 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/JavaAvancado.xml]
+18-Aug-2021 20:47:38.535 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/JavaAvancado.xml] has finished in [79] ms
+18-Aug-2021 20:47:38.544 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/JavaAvancado]] after start() had already been called. The second call will be ignored.
+18-Aug-2021 22:02:16.165 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Aug-2021 22:02:16.166 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Aug-2021 22:02:16.175 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Aug-2021 22:02:16.376 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Aug-2021 22:02:16.405 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

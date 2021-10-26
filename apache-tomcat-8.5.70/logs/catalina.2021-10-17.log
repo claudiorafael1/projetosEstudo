@@ -1,0 +1,174 @@
+17-Oct-2021 07:43:37.043 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.70
+17-Oct-2021 07:43:37.049 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 9 2021 16:17:14 UTC
+17-Oct-2021 07:43:37.050 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.70.0
+17-Oct-2021 07:43:37.050 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Oct-2021 07:43:37.050 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-38-generic
+17-Oct-2021 07:43:37.050 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Oct-2021 07:43:37.051 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/jdk1.8.0_111/jre
+17-Oct-2021 07:43:37.051 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+17-Oct-2021 07:43:37.051 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Oct-2021 07:43:37.052 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+17-Oct-2021 07:43:37.052 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+17-Oct-2021 07:43:37.053 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/logging.properties
+17-Oct-2021 07:43:37.053 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Oct-2021 07:43:37.054 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|rafael-Aspire-E5-571
+17-Oct-2021 07:43:37.055 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Oct-2021 07:43:37.055 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Oct-2021 07:43:37.055 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Oct-2021 07:43:37.056 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Oct-2021 07:43:37.056 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+17-Oct-2021 07:43:37.062 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+17-Oct-2021 07:43:37.064 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/temp
+17-Oct-2021 07:43:37.065 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/local/jdk1.8.0_111/jre/lib/amd64:/usr/local/jdk1.8.0_111/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+17-Oct-2021 07:43:37.561 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Oct-2021 07:43:37.655 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Oct-2021 07:43:37.703 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3498 ms
+17-Oct-2021 07:43:37.866 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Oct-2021 07:43:37.867 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.70]
+17-Oct-2021 07:43:37.895 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/ProjetoWEB.xml]
+17-Oct-2021 07:43:38.800 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/ProjetoWEB.xml] has finished in [904] ms
+17-Oct-2021 07:43:38.801 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/ProjetoBiblioteca.xml]
+17-Oct-2021 07:43:38.926 INFORMAÇÕES [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Oct-2021 07:43:38.938 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/ProjetoBiblioteca.xml] has finished in [137] ms
+17-Oct-2021 07:43:38.939 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/JavaAvancadoDefinitivo.xml]
+17-Oct-2021 07:43:39.031 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/JavaAvancadoDefinitivo.xml] has finished in [91] ms
+17-Oct-2021 07:43:39.031 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/JavaAvancado.xml]
+17-Oct-2021 07:43:39.111 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/JavaAvancado.xml] has finished in [79] ms
+17-Oct-2021 07:43:39.114 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/host-manager]
+17-Oct-2021 07:43:39.227 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/host-manager] has finished in [113] ms
+17-Oct-2021 07:43:39.228 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/manager]
+17-Oct-2021 07:43:39.379 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/manager] has finished in [151] ms
+17-Oct-2021 07:43:39.380 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/ROOT]
+17-Oct-2021 07:43:39.454 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/ROOT] has finished in [74] ms
+17-Oct-2021 07:43:39.455 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/examples]
+17-Oct-2021 07:43:40.186 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/examples] has finished in [732] ms
+17-Oct-2021 07:43:40.187 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/docs]
+17-Oct-2021 07:43:40.270 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/docs] has finished in [82] ms
+17-Oct-2021 07:43:40.288 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Oct-2021 07:43:40.307 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 2600 ms
+17-Oct-2021 07:44:15.901 INFORMAÇÕES [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 07:44:16.005 INFORMAÇÕES [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 07:46:11.592 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 07:46:11.659 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 07:46:29.456 INFORMAÇÕES [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 07:46:29.498 INFORMAÇÕES [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 07:47:07.459 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 07:47:07.494 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 07:47:12.386 INFORMAÇÕES [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 07:47:12.423 INFORMAÇÕES [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 07:56:16.201 INFORMAÇÕES [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 07:56:16.328 INFORMAÇÕES [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 07:56:35.818 INFORMAÇÕES [http-nio-8080-exec-31] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 07:56:35.877 INFORMAÇÕES [http-nio-8080-exec-31] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 07:57:12.538 INFORMAÇÕES [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 07:57:12.568 INFORMAÇÕES [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 07:57:27.550 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 07:57:27.588 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 07:58:07.007 INFORMAÇÕES [http-nio-8080-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 07:58:07.076 INFORMAÇÕES [http-nio-8080-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 07:58:31.354 INFORMAÇÕES [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 07:58:31.400 INFORMAÇÕES [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 07:58:35.006 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 07:58:35.065 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 07:59:15.111 INFORMAÇÕES [http-nio-8080-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 07:59:15.165 INFORMAÇÕES [http-nio-8080-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 08:00:26.093 INFORMAÇÕES [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 08:00:26.125 INFORMAÇÕES [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 08:00:50.147 INFORMAÇÕES [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 08:00:50.173 INFORMAÇÕES [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 08:01:51.528 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 08:01:51.602 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 08:05:56.745 INFORMAÇÕES [http-nio-8080-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 08:05:56.778 INFORMAÇÕES [http-nio-8080-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 08:08:30.010 INFORMAÇÕES [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 08:08:30.043 INFORMAÇÕES [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 11:38:15.526 INFORMAÇÕES [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 11:38:15.761 INFORMAÇÕES [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 11:38:15.839 INFORMAÇÕES [http-nio-8080-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 11:38:15.871 INFORMAÇÕES [http-nio-8080-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 11:50:26.595 INFORMAÇÕES [http-nio-8080-exec-74] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 11:50:26.665 INFORMAÇÕES [http-nio-8080-exec-74] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:02:10.852 INFORMAÇÕES [http-nio-8080-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:02:10.903 INFORMAÇÕES [http-nio-8080-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:02:19.663 INFORMAÇÕES [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:02:19.692 INFORMAÇÕES [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:05:11.427 INFORMAÇÕES [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:05:11.459 INFORMAÇÕES [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:06:10.174 INFORMAÇÕES [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:06:10.201 INFORMAÇÕES [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:28:18.245 INFORMAÇÕES [http-nio-8080-exec-97] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:28:18.296 INFORMAÇÕES [http-nio-8080-exec-97] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:28:19.033 INFORMAÇÕES [http-nio-8080-exec-105] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:28:19.064 INFORMAÇÕES [http-nio-8080-exec-105] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:29:18.852 INFORMAÇÕES [http-nio-8080-exec-102] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:29:18.879 INFORMAÇÕES [http-nio-8080-exec-102] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:29:21.607 INFORMAÇÕES [http-nio-8080-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:29:21.632 INFORMAÇÕES [http-nio-8080-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:31:16.224 INFORMAÇÕES [http-nio-8080-exec-112] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:31:16.251 INFORMAÇÕES [http-nio-8080-exec-112] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:36:53.383 INFORMAÇÕES [http-nio-8080-exec-126] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:36:53.436 INFORMAÇÕES [http-nio-8080-exec-126] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:36:55.058 INFORMAÇÕES [http-nio-8080-exec-120] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:36:55.094 INFORMAÇÕES [http-nio-8080-exec-120] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:38:21.298 INFORMAÇÕES [http-nio-8080-exec-133] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:38:21.322 INFORMAÇÕES [http-nio-8080-exec-133] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:38:22.758 INFORMAÇÕES [http-nio-8080-exec-136] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:38:22.777 INFORMAÇÕES [http-nio-8080-exec-136] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:41:16.310 INFORMAÇÕES [http-nio-8080-exec-140] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:41:16.333 INFORMAÇÕES [http-nio-8080-exec-140] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:43:55.060 INFORMAÇÕES [http-nio-8080-exec-150] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:43:55.100 INFORMAÇÕES [http-nio-8080-exec-150] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:44:16.919 INFORMAÇÕES [http-nio-8080-exec-145] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:44:16.947 INFORMAÇÕES [http-nio-8080-exec-145] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:44:22.145 INFORMAÇÕES [http-nio-8080-exec-146] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:44:22.183 INFORMAÇÕES [http-nio-8080-exec-146] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:47:18.355 INFORMAÇÕES [http-nio-8080-exec-156] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:47:18.384 INFORMAÇÕES [http-nio-8080-exec-156] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:51:16.709 INFORMAÇÕES [http-nio-8080-exec-141] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:51:16.824 INFORMAÇÕES [http-nio-8080-exec-141] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:52:02.432 INFORMAÇÕES [http-nio-8080-exec-167] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:52:02.471 INFORMAÇÕES [http-nio-8080-exec-167] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 12:52:03.967 INFORMAÇÕES [http-nio-8080-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 12:52:03.993 INFORMAÇÕES [http-nio-8080-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 19:11:22.845 INFORMAÇÕES [http-nio-8080-exec-176] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 19:11:23.028 INFORMAÇÕES [http-nio-8080-exec-176] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 19:12:03.466 INFORMAÇÕES [http-nio-8080-exec-181] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 19:12:03.516 INFORMAÇÕES [http-nio-8080-exec-181] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 19:12:16.475 INFORMAÇÕES [http-nio-8080-exec-177] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 19:12:16.515 INFORMAÇÕES [http-nio-8080-exec-177] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 19:12:20.241 INFORMAÇÕES [http-nio-8080-exec-180] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 19:12:20.274 INFORMAÇÕES [http-nio-8080-exec-180] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 19:13:08.140 INFORMAÇÕES [http-nio-8080-exec-188] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 19:13:08.165 INFORMAÇÕES [http-nio-8080-exec-188] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 19:13:09.359 INFORMAÇÕES [http-nio-8080-exec-180] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 19:13:09.387 INFORMAÇÕES [http-nio-8080-exec-180] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 19:13:38.637 INFORMAÇÕES [http-nio-8080-exec-191] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 19:13:38.672 INFORMAÇÕES [http-nio-8080-exec-191] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 19:19:33.150 INFORMAÇÕES [http-nio-8080-exec-202] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 19:19:33.191 INFORMAÇÕES [http-nio-8080-exec-202] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 19:19:37.712 INFORMAÇÕES [http-nio-8080-exec-206] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 19:19:37.743 INFORMAÇÕES [http-nio-8080-exec-206] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 21:13:50.269 INFORMAÇÕES [http-nio-8080-exec-214] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 21:13:50.299 INFORMAÇÕES [http-nio-8080-exec-214] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 21:13:51.161 INFORMAÇÕES [http-nio-8080-exec-209] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 21:13:51.179 INFORMAÇÕES [http-nio-8080-exec-209] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 21:14:47.159 INFORMAÇÕES [http-nio-8080-exec-220] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 21:14:47.191 INFORMAÇÕES [http-nio-8080-exec-220] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 21:16:39.644 INFORMAÇÕES [http-nio-8080-exec-223] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 21:16:39.700 INFORMAÇÕES [http-nio-8080-exec-223] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 21:48:56.136 INFORMAÇÕES [http-nio-8080-exec-233] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 21:48:56.181 INFORMAÇÕES [http-nio-8080-exec-233] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 21:49:01.489 INFORMAÇÕES [http-nio-8080-exec-237] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 21:49:01.518 INFORMAÇÕES [http-nio-8080-exec-237] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 21:49:07.263 INFORMAÇÕES [http-nio-8080-exec-235] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 21:49:07.289 INFORMAÇÕES [http-nio-8080-exec-235] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 22:22:31.459 INFORMAÇÕES [http-nio-8080-exec-247] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 22:22:31.488 INFORMAÇÕES [http-nio-8080-exec-247] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 22:23:34.559 INFORMAÇÕES [http-nio-8080-exec-244] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 22:23:34.594 INFORMAÇÕES [http-nio-8080-exec-244] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 22:23:41.317 INFORMAÇÕES [http-nio-8080-exec-245] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 22:23:41.343 INFORMAÇÕES [http-nio-8080-exec-245] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 22:32:30.388 INFORMAÇÕES [http-nio-8080-exec-258] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 22:32:30.416 INFORMAÇÕES [http-nio-8080-exec-258] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+17-Oct-2021 22:32:57.317 INFORMAÇÕES [http-nio-8080-exec-263] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+17-Oct-2021 22:32:57.339 INFORMAÇÕES [http-nio-8080-exec-263] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed

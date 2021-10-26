@@ -1,0 +1,135 @@
+19-Oct-2021 22:32:26.590 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.70
+19-Oct-2021 22:32:26.603 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 9 2021 16:17:14 UTC
+19-Oct-2021 22:32:26.604 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.70.0
+19-Oct-2021 22:32:26.605 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Oct-2021 22:32:26.605 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-38-generic
+19-Oct-2021 22:32:26.606 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Oct-2021 22:32:26.606 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/jdk1.8.0_111/jre
+19-Oct-2021 22:32:26.607 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+19-Oct-2021 22:32:26.607 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Oct-2021 22:32:26.608 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+19-Oct-2021 22:32:26.608 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+19-Oct-2021 22:32:26.610 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/logging.properties
+19-Oct-2021 22:32:26.610 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Oct-2021 22:32:26.610 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|rafael-Aspire-E5-571
+19-Oct-2021 22:32:26.610 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Oct-2021 22:32:26.610 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Oct-2021 22:32:26.611 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Oct-2021 22:32:26.611 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Oct-2021 22:32:26.611 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+19-Oct-2021 22:32:26.611 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+19-Oct-2021 22:32:26.611 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/temp
+19-Oct-2021 22:32:26.612 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/local/jdk1.8.0_111/jre/lib/amd64:/usr/local/jdk1.8.0_111/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-Oct-2021 22:32:27.274 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Oct-2021 22:32:27.367 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Oct-2021 22:32:27.410 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3337 ms
+19-Oct-2021 22:32:27.533 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Oct-2021 22:32:27.533 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.70]
+19-Oct-2021 22:32:27.555 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/ProjetoWEB.xml]
+19-Oct-2021 22:32:28.307 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/ProjetoWEB.xml] has finished in [750] ms
+19-Oct-2021 22:32:28.307 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/ProjetoBiblioteca.xml]
+19-Oct-2021 22:32:28.434 INFORMAÇÕES [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Oct-2021 22:32:28.450 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/ProjetoBiblioteca.xml] has finished in [143] ms
+19-Oct-2021 22:32:28.450 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/JavaAvancadoDefinitivo.xml]
+19-Oct-2021 22:32:28.520 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/JavaAvancadoDefinitivo.xml] has finished in [69] ms
+19-Oct-2021 22:32:28.520 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/JavaAvancado.xml]
+19-Oct-2021 22:32:28.573 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/JavaAvancado.xml] has finished in [53] ms
+19-Oct-2021 22:32:28.574 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/host-manager]
+19-Oct-2021 22:32:28.640 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/host-manager] has finished in [66] ms
+19-Oct-2021 22:32:28.640 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/manager]
+19-Oct-2021 22:32:28.684 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/manager] has finished in [44] ms
+19-Oct-2021 22:32:28.685 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/ROOT]
+19-Oct-2021 22:32:28.730 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/ROOT] has finished in [44] ms
+19-Oct-2021 22:32:28.730 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/examples]
+19-Oct-2021 22:32:29.326 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/examples] has finished in [596] ms
+19-Oct-2021 22:32:29.327 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/docs]
+19-Oct-2021 22:32:29.367 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/docs] has finished in [39] ms
+19-Oct-2021 22:32:29.383 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Oct-2021 22:32:29.413 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 2001 ms
+19-Oct-2021 22:34:55.852 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+19-Oct-2021 22:34:55.956 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+19-Oct-2021 22:35:58.793 INFORMAÇÕES [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+19-Oct-2021 22:35:58.908 INFORMAÇÕES [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+19-Oct-2021 22:36:47.040 INFORMAÇÕES [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+19-Oct-2021 22:36:47.074 INFORMAÇÕES [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+19-Oct-2021 22:36:51.917 INFORMAÇÕES [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+19-Oct-2021 22:36:51.978 INFORMAÇÕES [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+19-Oct-2021 22:37:07.648 INFORMAÇÕES [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+19-Oct-2021 22:37:07.688 INFORMAÇÕES [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+19-Oct-2021 22:37:50.384 INFORMAÇÕES [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+19-Oct-2021 22:37:50.470 INFORMAÇÕES [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+19-Oct-2021 22:38:16.250 INFORMAÇÕES [http-nio-8080-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+19-Oct-2021 22:38:16.360 INFORMAÇÕES [http-nio-8080-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+19-Oct-2021 22:38:36.559 INFORMAÇÕES [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+19-Oct-2021 22:38:36.636 INFORMAÇÕES [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+19-Oct-2021 22:38:43.172 INFORMAÇÕES [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+19-Oct-2021 22:38:43.230 INFORMAÇÕES [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+19-Oct-2021 22:39:50.002 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Oct-2021 22:39:50.003 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Oct-2021 22:39:50.011 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Oct-2021 22:39:50.136 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Oct-2021 22:39:50.141 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Oct-2021 22:39:54.869 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.70
+19-Oct-2021 22:39:54.878 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 9 2021 16:17:14 UTC
+19-Oct-2021 22:39:54.880 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.70.0
+19-Oct-2021 22:39:54.880 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Oct-2021 22:39:54.881 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-38-generic
+19-Oct-2021 22:39:54.882 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Oct-2021 22:39:54.883 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/jdk1.8.0_111/jre
+19-Oct-2021 22:39:54.883 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+19-Oct-2021 22:39:54.884 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Oct-2021 22:39:54.885 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+19-Oct-2021 22:39:54.885 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+19-Oct-2021 22:39:54.887 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/logging.properties
+19-Oct-2021 22:39:54.888 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Oct-2021 22:39:54.889 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|rafael-Aspire-E5-571
+19-Oct-2021 22:39:54.890 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Oct-2021 22:39:54.897 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Oct-2021 22:39:54.898 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Oct-2021 22:39:54.898 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=11550,server=y,suspend=n
+19-Oct-2021 22:39:54.899 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Oct-2021 22:39:54.900 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+19-Oct-2021 22:39:54.900 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70
+19-Oct-2021 22:39:54.900 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/temp
+19-Oct-2021 22:39:54.902 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/local/jdk1.8.0_111/jre/lib/amd64:/usr/local/jdk1.8.0_111/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-Oct-2021 22:39:55.252 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Oct-2021 22:39:55.297 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Oct-2021 22:39:55.343 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1798 ms
+19-Oct-2021 22:39:55.426 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Oct-2021 22:39:55.427 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.70]
+19-Oct-2021 22:39:55.465 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/ProjetoWEB.xml]
+19-Oct-2021 22:39:56.384 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/ProjetoWEB.xml] has finished in [919] ms
+19-Oct-2021 22:39:56.385 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/ProjetoBiblioteca.xml]
+19-Oct-2021 22:39:56.453 INFORMAÇÕES [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Oct-2021 22:39:56.458 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/ProjetoBiblioteca.xml] has finished in [73] ms
+19-Oct-2021 22:39:56.459 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/JavaAvancadoDefinitivo.xml]
+19-Oct-2021 22:39:56.489 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/JavaAvancadoDefinitivo.xml] has finished in [30] ms
+19-Oct-2021 22:39:56.490 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/JavaAvancado.xml]
+19-Oct-2021 22:39:56.525 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/JavaAvancado.xml] has finished in [34] ms
+19-Oct-2021 22:39:56.535 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/host-manager]
+19-Oct-2021 22:39:56.646 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/host-manager] has finished in [111] ms
+19-Oct-2021 22:39:56.649 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/manager]
+19-Oct-2021 22:39:56.746 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/manager] has finished in [96] ms
+19-Oct-2021 22:39:56.746 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/ROOT]
+19-Oct-2021 22:39:56.792 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/ROOT] has finished in [46] ms
+19-Oct-2021 22:39:56.794 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/examples]
+19-Oct-2021 22:39:57.379 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/examples] has finished in [585] ms
+19-Oct-2021 22:39:57.380 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/docs]
+19-Oct-2021 22:39:57.416 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/webapps/docs] has finished in [37] ms
+19-Oct-2021 22:39:57.431 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Oct-2021 22:39:57.481 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 2138 ms
+19-Oct-2021 22:40:00.801 INFORMAÇÕES [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoWEB]
+19-Oct-2021 22:40:00.894 INFORMAÇÕES [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/ProjetoWEB.xml]
+19-Oct-2021 22:40:00.986 INFORMAÇÕES [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rafael/NetBeansProjects/apache-tomcat-8.5.70/conf/Catalina/localhost/ProjetoWEB.xml] has finished in [92] ms
+19-Oct-2021 22:40:01.011 INFORMAÇÕES [http-nio-8080-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoWEB]] after start() had already been called. The second call will be ignored.
+19-Oct-2021 22:43:10.455 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+19-Oct-2021 22:43:10.591 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+19-Oct-2021 22:43:10.774 INFORMAÇÕES [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+19-Oct-2021 22:43:10.854 INFORMAÇÕES [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+19-Oct-2021 22:43:31.138 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+19-Oct-2021 22:43:31.199 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+19-Oct-2021 22:46:03.753 INFORMAÇÕES [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] has started
+19-Oct-2021 22:46:03.810 INFORMAÇÕES [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEB] is completed
+19-Oct-2021 22:48:17.898 INFORMAÇÕES [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Oct-2021 22:48:17.907 INFORMAÇÕES [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Oct-2021 22:48:17.951 INFORMAÇÕES [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
